@@ -71,17 +71,6 @@ fluuter_api/
 - **Method**: GET
 - **Response Format**: JSON
 
-## ⚠️ ปัญหาที่พบบ่อย
-
-### ปัญหา Network Permission
-หากพบปัญหาการเชื่อมต่อ internet ใน Android ให้เพิ่มใน `android/app/src/main/AndroidManifest.xml`:
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-```
-
-### ปัญหา HTTPS Certificate
-หากใช้ API ที่เป็น HTTP แทน HTTPS ให้ตั้งค่า network security config
-
 ## 🤝 การมีส่วนร่วม
 
 1. Fork โปรเจกต์
