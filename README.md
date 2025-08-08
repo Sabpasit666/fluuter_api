@@ -57,35 +57,7 @@ flutter build apk
 fluuter_api/
 ├── lib/
 │   ├── main.dart              # ไฟล์หลักของแอป
-│   ├── models/                # โมเดลสำหรับข้อมูล
-│   ├── screens/               # หน้าจอต่างๆ
-│   ├── services/              # บริการสำหรับเรียก API
-│   └── widgets/               # Component ที่ใช้ซ้ำ
-├── assets/                    # รูปภาพและไฟล์ทรัพยากร
-├── test/                      # ไฟล์ทดสอบ
-├── pubspec.yaml              # การตั้งค่า dependencies
-└── README.md                 # ไฟล์คำอธิบายนี้
 ```
-
-## 🔧 Dependencies ที่สำคัญ
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  http: ^0.13.0
-  cupertino_icons: ^1.0.2
-  
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-```
-
-## 📱 ภาพหน้าจอ
-
-*รูปภาพหน้าจอของแอปจะแสดงที่นี่*
-
 ## 🎯 การใช้งาน
 
 1. **เปิดแอป**: เมื่อเปิดแอปจะแสดงหน้าหลักพร้อมรายการตำรับอาหาร
